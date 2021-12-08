@@ -1,12 +1,13 @@
 {
-  "name": "lib-starter",
-  "version": "0.0.0",
-  "description": "NPM library create and test template",
+  "name": "lottery-odds",
+  "version": "1.0.0",
+  "description": "Calculate lottery odds and probabilities",
   "author": "Michael Joseph Miller",
   "private": false,
   "license": "MIT",
   "keywords": [],
-  "source": "src/index.js",
+  "type": "module",
+  "source": "./index.js",
   "main": "dist/main.js",
   "module": "dist/module.js",
   "scripts": {
@@ -17,10 +18,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/michael-joseph-miller/lib-starter.git"
+    "url": "git+https://github.com/michael-joseph-miller/lottery-odds.git"
   },
   "bugs": {
-    "url": "https://github.com/michael-joseph-miller/lib-starter/issues"
+    "url": "https://github.com/michael-joseph-miller/lottery-odds/issues"
   },
   "devDependencies": {
     "parcel": "^2.0.1"

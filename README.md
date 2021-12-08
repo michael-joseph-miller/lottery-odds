@@ -1,6 +1,6 @@
-# lib-starter<!-- omit in toc -->
+# lottery-odds<!-- omit in toc -->
 
-Repo to create and test NPM packages"<!-- omit in toc -->
+Calculate lottery odds and probabilities<!-- omit in toc -->
 
 [GitHub][repo] | [Report Bug][bugs] | [Request Features][features]
 
@@ -18,17 +18,20 @@ Repo to create and test NPM packages"<!-- omit in toc -->
 ## Installation
 
 ```sh
-git clone https://github.com/michael-joseph-miller/lib-starter
-cd lib-starter/
-npm i
+npm i lottery-odds
 ```
 
 ## Usage
 
-1. Import the component you would like to use into the appropriate file.
+1. Import:
 
    ```js
+   import lottery from 'lottery-odds';
+   ```
 
+2. Use:
+   ```js
+   let odds = lottery.odds();
    ```
 
 ## License
@@ -39,10 +42,10 @@ Distributed under the MIT License. See [LICENSE](https://img.shields.io/github/l
 
 ## Contact
 
-Project Link: <https://github.com/michael-joseph-miller/lib-starter>
+Project Link: <https://github.com/michael-joseph-miller/lottery-odds>
 
 <!-- LINKS & IMAGES -->
 
-[repo]: https://github.com/michael-joseph-miller/lib-starter/
-[bugs]: https://github.com/michael-joseph-miller/lib-starter/issues
-[features]: https://github.com/michael-joseph-miller/lib-starter/issues
+[repo]: https://github.com/michael-joseph-miller/lottery-odds/
+[bugs]: https://github.com/michael-joseph-miller/lottery-odds/issues
+[features]: https://github.com/michael-joseph-miller/lottery-odds/issues
