@@ -1,6 +1,6 @@
 {
   "name": "lottery-odds",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Calculate lottery odds and probabilities",
   "author": "Michael Joseph Miller",
   "private": false,
