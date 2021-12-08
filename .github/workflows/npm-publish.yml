@@ -14,8 +14,8 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm run install:lib
-          npm run build:lib
+          npm install
+          npm run build
 
       - name: setup-node@v2
         uses: actions/setup-node@v2
