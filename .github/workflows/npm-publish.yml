@@ -25,5 +25,5 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Publish lib to NPM
-        run: npm publish lib/ --access public
+        run: npm publish --access public
         continue-on-error: true
